@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #76e4bf;
+    --tertiary-color: #39a6b2;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: var(--secondary-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    padding: 30px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../css/hero-colorful.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999; 
+}
+
+header h1 {
+    color: var(--primary-color);
+    margin: 0;
+    font-weight: bold;
+    font-size: 42px;
+}
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+   
+}
+header nav ul li {
+    padding: 10px 15px;
+}
+
+header nav ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    cursor: pointer;
+    color: var(--tertiary-color);
+}
