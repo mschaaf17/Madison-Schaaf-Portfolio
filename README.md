@@ -1,14 +1,14 @@
 # Madison-Schaaf-Portfolio
 
 ## Purpose
-A website that provides information about Madison and work samples.
+A website that provides coding samples from Madison.
 
 ## Built With
 * HTML
 * CSS
 
 ## Website
-https:/
+https://mschaaf17.github.io/Madison-Schaaf-Portfolio/
 
 ## Contribution
 Made with ❤️ by Madison Schaaf
