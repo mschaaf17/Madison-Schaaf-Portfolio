@@ -67,18 +67,21 @@ header nav ul li a:hover {
 .hero {
     background-image: url("../css/hero-colorful.jpg");
     padding: 100px 20px 10px 0;
+    display: flex;
+    justify-content: flex-end;
+
    
 }
-.hero h2 {
+.hero h2 { 
     border-radius: 15px;
     background-color: var(--primary-color);
-    display: inline-block;
     border: 1px solid var(--primary-color);
-    width: auto;
-    margin-left: 1000px;
-   
+    width: 150px;
+    height: 40px;
+    text-align: center;
 
-}
+ }   
+
 
 /*utilites */
 .center-text {
@@ -89,11 +92,14 @@ header nav ul li a:hover {
     padding: 60px 80px 60px 20px;
 }
 /*about me*/
-/*.content {
+/*
+.content {
     display: flex;
      flex: 0 0 100%;
+     margin: auto;
   
-}*/
+}
+
 
 .content h3 {
     font-weight: bold;
@@ -103,6 +109,7 @@ header nav ul li a:hover {
     padding: 100px 10px 10px 100px;
 
 }
+*/
 
 
 
@@ -112,13 +119,13 @@ header nav ul li a:hover {
 .header-info {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2%;
     background-color: pink;
+    padding: 10px;
     
 }
-
 .header-info h4 {
     display: flex;
+    justify-content: flex-end;
     padding: 60px;
     background: var(--secondary-color);
     color: var(--primary-color);
@@ -148,12 +155,15 @@ header nav ul li a:hover {
  /*contact me section */
 
 
- .contact-info {
+ .header-info, .contact-info {
+    display: flex;
+    flex-wrap: wrap
+    justify-content: space-between;
     border: 1px solid red;
-    margin: auto;
     text-align: center;
+    width: 100%;
+    
  }
-
 
 
           
