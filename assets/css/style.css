@@ -4,62 +4,161 @@
     --tertiary-color: #39a6b2;
     
 }
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
 }
+
+
 body {
     color: var(--secondary-color);
     font-family: Helvetica, Arial, sans-serif;
+    
 }
 
 header {
-    padding: 30px 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    position: -webkit-sticky;
+    padding: 30px 10px 0 0;
+    background-color: var(--tertiary-color);
+    /*
+     position: -webkit-sticky;
     position: sticky;
-    top: 0;
-    background-image: url("../css/hero-colorful.jpg");
-    background-size: cover;
+    top: 0;background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
-    z-index: 9999; 
+    z-index: 9999; */ 
 }
 
 header h1 {
     color: var(--primary-color);
-    margin: 0;
     font-weight: bold;
-    font-size: 42px;
+    font-size: 40px;
 }
+
 header nav {
     margin: 10px 0;
 }
 
 header nav ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     list-style: none;
-    margin: 0;
    
 }
 header nav ul li {
     padding: 10px 15px;
+    
 }
 
 header nav ul li a {
     color: var(--primary-color);
     text-decoration: none;
+  
 }
 
 header nav ul li a:hover {
     cursor: pointer;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
 }
+
+.hero {
+    background-image: url("../css/hero-colorful.jpg");
+    padding: 100px 20px 10px 0;
+   
+}
+.hero h2 {
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    display: inline-block;
+    border: 1px solid var(--primary-color);
+    width: auto;
+    margin-left: 1000px;
+   
+
+}
+
+/*utilites */
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 1.5;   
+    padding: 60px 80px 60px 20px;
+}
+/*about me*/
+/*.content {
+    display: flex;
+     flex: 0 0 100%;
+  
+}*/
+
+.content h3 {
+    font-weight: bold;
+    border-right: 5px solid var(--tertiary-color);
+    font-size: 34px;
+    margin: 10px 10px 10px 40px;
+    padding: 100px 10px 10px 100px;
+
+}
+
+
+
+
+/*work section*/
+
+.header-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    background-color: pink;
+    
+}
+
+.header-info h4 {
+    display: flex;
+    padding: 60px;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+ .samples {
+     flex: 1 0 0;
+     flex-wrap: wrap;
+     border: 1px solid;
+ }
+
+ .samples h4 {
+     padding: 20px;
+     background: var(--secondary-color);
+     color: var(--primary-color);
+ }
+
+ .samples img {
+     width: 100%;
+     min-width: 300px;
+ }
+
+ .samples p {
+     padding: 0 0 10px 0;
+    }
+
+    
+ /*contact me section */
+
+
+ .contact-info {
+    border: 1px solid red;
+    margin: auto;
+    text-align: center;
+ }
+
+
+
+          
+   
+
+
+
+    
