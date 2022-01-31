@@ -65,22 +65,25 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url("../css/hero-colorful.jpg");
+    background-image: url("../css/pastel-bg.jpg");
     padding: 100px 20px 10px 0;
+    display: flex;
+    justify-content: flex-end;
+
    
 }
-.hero h2 {
+.hero h2 { 
     border-radius: 15px;
     background-color: var(--primary-color);
-    display: inline-block;
     border: 1px solid var(--primary-color);
-    width: auto;
-    margin-left: 1000px;
-   
+    width: 150px;
+    height: 40px;
+    text-align: center;
 
-}
+ }   
 
 /*utilites */
+/*
 .center-text {
     display: flex;
     justify-content: center;
@@ -88,12 +91,17 @@ header nav ul li a:hover {
     line-height: 1.5;   
     padding: 60px 80px 60px 20px;
 }
+*/
+
 /*about me*/
-/*.content {
+/*
+.content {
     display: flex;
      flex: 0 0 100%;
+     margin: auto;
   
-}*/
+}
+
 
 .content h3 {
     font-weight: bold;
@@ -103,61 +111,147 @@ header nav ul li a:hover {
     padding: 100px 10px 10px 100px;
 
 }
+*/
 
 
 
 
-/*work section*/
+/*all of the content section*/
 
-.header-info {
+.content-info {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2%;
-    background-color: pink;
-    
+    justify-content: space-between;
 }
 
-.header-info h4 {
+.content-info h3 {
     display: flex;
+    font-weight: bold;
+    font-size: 42px;
+    border-right: 5px solid var(--tertiary-color);
+    padding-right: 20px;
+    margin: 50px 10px;
+}
+
+.content-info .about-me img {
+    height: 200px;
+    padding: 10px 0;
+    border-radius: 50% 0;
+}
+
+
+.content-info p {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 30px;
+
+}
+.secondary-title {
+    font-weight: bold;
+    font-size: 42px;
+    color:var(--secondar-color);
+    text-align: center;
+    border: 5px solid var(--tertiary-color);
+    background-color: var(--tertiary-color);
+}
+
+
+.work-samples .sample1 {
+    flex: 1 0 20%;
+}
+/*
+ .java-sample {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+
+ .work-samples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.samples {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+} 
+
+.samples img {
+    min-width: 300px;
+    height: 150px;
+    }
+
+
+.sub-headings {
+    background: var(--tertiary-color);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+    /*
+.work-samples h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 60px;
     background: var(--secondary-color);
     color: var(--primary-color);
+} */
+
+
+/*
+.samples h4 {
+    padding: 20px;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    text-align: left;
 }
- .samples {
-     flex: 1 0 0;
-     flex-wrap: wrap;
-     border: 1px solid;
- }
+*/
 
- .samples h4 {
-     padding: 20px;
-     background: var(--secondary-color);
-     color: var(--primary-color);
- }
-
- .samples img {
-     width: 100%;
-     min-width: 300px;
- }
-
- .samples p {
-     padding: 0 0 10px 0;
-    }
+ 
 
     
  /*contact me section */
+ 
 
 
- .contact-info {
-    border: 1px solid red;
-    margin: auto;
+footer {
     text-align: center;
- }
+}
 
+
+/*
+ .header-info, .contact-info {
+    display: flex;
+    flex-wrap: wrap
+    justify-content: space-between;
+    border: 1px solid red;
+    text-align: center;
+    width: 100%;
+    
+ }
+ */
 
 
           
-   
+@media (max-width: 750px) {
+    ???
+}   
 
 
 
