@@ -137,7 +137,8 @@ header nav ul li a:hover {
 
 
 .work-samples .sample1 {
-    flex: 1 0 20%;
+    flex: 1 0 80%;
+    margin: 10px 20px;
 }
 
 
@@ -146,6 +147,7 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     border: 5px solid var(--secondary-color);
+    margin: auto;
 
 }
 .samples {
